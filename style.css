@@ -45,3 +45,8 @@ footer a:hover{color:var(--red)}
 .contact{border-top:1px solid var(--line);padding-top:1.5rem}
 .contact a{display:block;margin-top:.5rem;font-size:1.875rem;font-weight:700}
 .contact a:hover{color:var(--red)}
+nav{align-items:center}
+.lang{display:inline-flex;border:1px solid var(--line,#333)}
+.lang button{background:none;border:0;color:inherit;font:inherit;padding:2px 8px;cursor:pointer}
+.lang button:hover{color:var(--red)}
+.lang button.on{background:var(--red);color:#fff}
